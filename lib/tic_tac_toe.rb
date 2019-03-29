@@ -97,14 +97,6 @@ def over?(board)
   end
 end
 
-# def winner(board)
-#   if board.count("X") >= 3
-#     return "X"
-#   elsif  board.count("O") >= 3
-#     return "O"
-#   end
-# end
-
 def winner(board)
    if won?(board)
       return board[won?(board)[0]]
